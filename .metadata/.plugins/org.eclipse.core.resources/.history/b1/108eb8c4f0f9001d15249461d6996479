@@ -1,0 +1,23 @@
+package com.sample;
+
+import com.create.TableCreate;
+import com.insert.InsertTable;
+import com.slect.TableSelect;
+
+public class SampleProject {
+
+	public static void main(String[] args) {
+		
+//		TableCreate tc = new TableCreate();
+//		tc.cre();
+		
+//		InsertTable it = new InsertTable();
+//		it.ins();
+		
+		TableSelect ts = new TableSelect();
+		ts.sel();
+		
+
+	}
+
+}
